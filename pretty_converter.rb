@@ -95,7 +95,9 @@ end
 # Parse the options
 $options = Hash.new
 opt_parser = OptionParser.new do |opts|
-  opts.banner = "Usage: #{__FILE__} [OPTION]... [FILE]..."
+  opts.banner = "Convert alphabet characters to Unicode Mathematical Alphanumeric Symbols."
+  opts.separator ""
+  opts.separator "Usage: #{__FILE__} [OPTION]... [FILE]..."
   opts.separator ""
   opts.separator "Ooptions:"
   opts.on("-f", "--font [FONT]", $pretty_fonts,

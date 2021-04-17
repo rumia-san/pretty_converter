@@ -7,10 +7,12 @@ Convert alphabet characters to Unicode Mathematical Alphanumeric Symbols.
     𝕿𝖍𝖊 𝖑𝖆𝖗𝖐𝖘, 𝖘𝖙𝖎𝖑𝖑 𝖇𝖗𝖆𝖛𝖊𝖑𝖞 𝖘𝖎𝖓𝖌𝖎𝖓𝖌, 𝖋𝖑𝖞
     𝕾𝖈𝖆𝖗𝖈𝖊 𝖍𝖊𝖆𝖗𝖉 𝖆𝖒𝖎𝖉 𝖙𝖍𝖊 𝖌𝖚𝖓𝖘 𝖇𝖊𝖑𝖔𝖜.
 
-
+The non-alphabet characters (commas, colons, semicolons, etc) won't be affected.
 # Usage
 ```
-Usage: ./pretty_character.rb [OPTION]... [FILE]...
+Convert alphabet characters to Unicode Mathematical Alphanumeric Symbols.
+
+Usage: ./pretty_converter.rb [OPTION]... [FILE]...
 
 Ooptions:
     -f, --font [FONT]                Use specifed font. You could use the option '-e' to list available fonts. The default is Bold-Script.
