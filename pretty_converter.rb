@@ -80,13 +80,6 @@ class PrettyConverter
   end
 end
 
-
-def print_file_as_pretty(file, pretty_font)
-  File.foreach(file) do |line|
-    puts line
-  end
-end
-
 # Print 'a' to 'z' and 'A' to 'Z' with all Mathematical Alphanumeric Symbols
 def print_example
   for font in $pretty_fonts do
