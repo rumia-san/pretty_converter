@@ -1,4 +1,8 @@
 #! /usr/bin/env ruby
+
+# Convert alphabet characters to Unicode Mathematical Alphanumeric Symbols.
+# Written by Rumia <rumia-san@outlook.com>
+
 require 'optparse'
 
 # Add methods to String class
